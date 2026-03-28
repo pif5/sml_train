@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import math
 
-df = pd.read_excel("your_corpus.xlsx")  # or read_csv if it's a CSV
+df = pd.read_excel("kichwa_corpus.xlsx")  # or read_csv if it's a CSV
 
 def safe(x):
     if x is None or (isinstance(x, float) and math.isnan(x)):
